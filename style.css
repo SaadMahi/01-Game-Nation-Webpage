@@ -1,0 +1,502 @@
+body {
+  background-color: black;
+  color: #fff;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding-bottom: 12px;
+  line-height: 22.1px;
+  text-align: justify;
+}
+
+/*
+p {
+  color: #fff;
+ display: block;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding-bottom: 12px;
+ line-height: 22.1px;
+ text-align: left;
+}
+*/
+
+/*
+.system-requirment {
+  color: #fff;
+ display: block;
+ font-family: Arial, sans-serif;
+ font-size: 13px;
+ padding-bottom: 12px;
+ text-align: left;
+ line-height: 22.1px;
+}
+*/
+#head {
+  margin-top: 200px;
+
+}
+
+.menu-bar {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0% auto;
+}
+
+
+.poppo {
+  font-family: sans-serif;
+  font-size: xx-large;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: underline;
+}
+
+.gaming {
+  font-family: cursive;
+  font-size: x-large;
+  color: #ee122a;
+  margin-right: 30px;
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+nav {
+  background: #ee122a;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 15px;
+  display: flex;
+}
+
+
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  float: right;
+}
+
+
+
+
+
+nav a:hover {
+  color: black;
+}
+
+nav a:active {
+  color: orange;
+}
+
+
+/*
+nav a:visited{
+  color: purple; 
+}
+*/
+a.yt {
+  background: url(https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png) no-repeat center;
+  background-size: 100%;
+}
+
+.ins {
+  background: url(https://cdn141.picsart.com/264066759002212.png) no-repeat center;
+  background-size: 100%;
+}
+
+
+.social a {
+  text-indent: -10000px;
+}
+
+.ins {
+  margin-right: 20px;
+  width: 20px;
+}
+
+.yt {
+  width: 20px;
+  margin-right: 20px;
+}
+
+
+
+.social {
+  max-width: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex: 1 1 0;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 40px;
+  background: #555;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: ariel;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+h4 {
+  background: rgb(14, 231, 14);
+  width: 100%;
+  font-size: x-large;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  background: #ee122a;
+  clear: both;
+}
+
+.cover {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Hitman 5 Absolution 
+
+.hitman p {
+  line-height: 35px;
+  margin-top: 354px;
+  margin-left: 410px;
+}*/
+
+.gameplay img {
+  width: 200px;
+  margin: 10px 30px;
+}
+
+/* game download button*/
+.click img {
+  width: 200px;
+}
+
+
+/* Footer Editing */
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+
+footer a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  display: block;
+  line-height: 22.1px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+
+/*Contact Us Page
+
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.soc img{
+  width: 25px;
+}
+
+section::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #ee122a;
+
+}
+
+section .container{
+  position: relative;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+}
+
+section .container .contactinfo{
+  position: absolute;
+  top: 40px;
+  width: 350px;
+  height: calc(100% - 80px);
+  background: black;
+  z-index: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+section .container .contactinfo h2{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+section .container .contactinfo .info{
+  position: relative;
+  margin: 20px 0;
+}
+
+section .container .contactinfo .info li{
+  position: relative;
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+section .container .contactinfo .info li span:nth-child(1)
+{
+ width: 30px;
+ min-width: 30px;
+}
+
+section .container .contactinfo .info li span:nth-child(1) img{
+  max-width: 100%;
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+section .container .contactinfo .info li span:nth-child(2)
+{
+color: #fff;
+margin-left: 10px;
+font-weight: 300;
+opacity: 0.5;
+}
+
+section .container .contactinfo .info li:hover span:nth-child(1) img,
+section .container .contactinfo .info li:hover span:nth-child(2)
+{
+  opacity: 1;
+}
+
+
+section .container .contactinfo .soc{
+  position: relative;
+  display: flex;
+}
+
+section .container .contactinfo .soc li{
+  list-style: none;
+  margin-right: 15px;
+}
+
+section .container .contactinfo .soc li a{
+text-decoration: none;
+}
+
+section .container .contactinfo .soc li a img{
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+section .container .contactinfo .soc li:hover a img{
+  opacity: 1;
+}
+
+section .container .contactForm{
+  color: black;
+  position: absolute;
+  padding: 70px 50px;
+  background: #fff;
+  margin-left: 350px;
+  padding-left: 250px;
+  width: calc(100%) - 150px;
+  height: 90%;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+
+section .container .contactForm h2{
+  color: #ee122a;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+section .container .contactForm .formbox{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+section .container .contactForm .formbox .inputbox{
+  position: relative;
+  margin: 0 0 35px 0;
+
+}
+
+section .container .contactForm .formbox .inputbox w50{
+  width: 47%;
+}
+
+section .container .contactForm .formbox .inputbox w100{
+  width: 100%
+}
+
+section .container .contactForm .formbox .inputbox input{
+  width: 100%; 
+  padding: 5px 0;
+  font-size: 18px;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #ee122a;
+  outline: none;
+}
+
+section .container .contactForm .formbox .inputbox textarea{
+  resize: none;
+  min-height: 120px;
+}
+
+section .container .contactForm .formbox .inputbox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  transition: 0.5s;
+  pointer-events: none;
+
+}
+
+section .container .contactForm .formbox .inputbox input:focus ~ span,
+section .container .contactForm .formbox .inputbox textarea:focus ~ span,
+section .container .contactForm .formbox .inputbox input:valid ~ span,
+section .container .contactForm .formbox .inputbox textarea:valid ~ span
+{
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ee122a;
+}
+
+section .container .contactForm .formbox .inputbox input[type="submit"]{
+  position: relative;
+  cursor: pointer;
+  background: lightgrey;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+}
+
+section .container .contactForm .formbox .inputbox input[type="submit"]:hover{
+  background: #ee122a;
+}
+
+
+.note{
+  color: red;
+}
+
+.tip{
+color: cyan;
+}
+
+/*
+.button{
+  background: #fff;
+  display: block;
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #ee122a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ee122a;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background: #c0c0c0;
+  text-decoration: none;
+}
+
+************************************************************/
+
+
+
+
+
+
+/* Desktop responsive control */
+@media screen and (min-width: 768px) {
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  nav ul {
+    display: flex;
+  }
+
+  .social {
+    margin: 0;
+    margin-right: 30px;
+  }
+
+  #head {
+    margin-top: 150px;
+    margin-bottom: 0;
+
+  }
+
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer ul {
+    display: flex;
+  }
+
+  footer li {
+    flex: 1 1 0;
+  }
+
+}
